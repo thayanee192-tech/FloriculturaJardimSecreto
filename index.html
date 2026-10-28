@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Floricultura Jardim Secreto</title>
+
+    <style>
+        body {
+            font-family: "Marker Felt", sans-serif;
+            background-color: #c0c0c0;
+            color: black;
+        }
+
+        h1 {
+            color: white;
+            background-color: #c0c0c0;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #DDA0DD;
+            padding: 9px;
+        }
+
+        nav a {
+            color: black;
+            margin: 10px;
+        }
+
+        h2 {
+            color: black;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        table {
+            width: 100%;
+            background-color: white;
+        }
+
+        td {
+            text-align: center;
+            padding: 10px;
+        }
+
+        td img {
+            width: 200px;
+            height: 200px;
+        }
+
+        form {
+            background-color: white;
+            padding: 20px;
+            width: 300px;
+            margin: auto;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #DDA0DD;
+            color: white;
+            border: none;
+            padding: 10px;
+        }
+
+        button {
+            background-color: #DDA0DD;
+            color: white;
+            border: none;
+            padding: 8px;
+            margin: 3px;
+        }
+
+        #contato {
+            background-color: white;
+            padding: 20px;
+        }
+
+        .quantidade {
+            background-color: #f5f5f5;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#inicio">Início</a> |
+        <a href="#produtos">Nossos Produtos</a> |
+        <a href="#pedido">Faça seu Pedido</a> |
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <hr>
+
+    <section id="inicio">
+
+        <h2>Bem-vindo!</h2>
+
+        <p>
+            A Floricultura Jardim Secreto oferece buquês,
+            arranjos florais, plantas ornamentais e presentes
+            para aniversários, casamentos, Dia das Mães,
+            Dia dos Namorados e muitas outras ocasiões.
+        </p>
+
+        <img
+            src="https://www.isabelaflores.com/skin/frontend/apptha/superstore/images/banners/bigcarousel/bannerdesktop2.webp"
+            width="100%"
+            alt="Flores">
+
+    </section>
+
+    <hr>
+
+    <section id="produtos">
+
+        <h2>Nossos Produtos</h2>
+
+        <table>
+
+            <tr>
+
+                            <td>
+                    <h3>🌹 Buquê de Rosas</h3>
+
+                    <img
+                        src="https://www.lohanaflores.com.br/lojas/00010332/prod/100rosas.jpg"
+                        alt="Buquê de rosas">
+
+                   
+                                   </td>
+
+
+                               <td>
+                    <h3>🌻 Girassóis</h3>
+
+                    <img
+                        src="https://content2.udora.com.br/data/flowers/1000x1000/22/1672711717_61873722.jpg"
+                        alt="Girassóis">
+
+                   
+                                  </td>
+
+
+                               <td>
+                    <h3>🌷 Tulipas</h3>
+
+                    <img
+                        src="https://cdn0.casamentos.com.br/article-vendor/8126/original/1280/jpg/bouquet-primavera-tulipas_13_148126_v1.jpeg"
+                        alt="Tulipas">
+
+                  
+                                  </td>
+
+
+                              <td>
+                    <h3>🪴 Plantas Ornamentais</h3>
+
+                    <img
+                        src="https://papelsemente.com.br/wp-content/uploads/2018/06/pl2000027224.jpg"
+                        alt="Planta ornamental">
+
+                  
+                                   </td>
+
+
+                              <td>
+                    <h3>🌹 Buquê de Orquídeas</h3>
+
+                    <img
+                        src="https://mimoemflor.com.br/wp-content/uploads/2021/11/OK-2.jpg"
+                        alt="Orquídeas">
+
+                                                       </td>
+
+            </tr>
+
+        </table>
+
+    </section>
+
+    <hr>
+
+
+   <section id="pedido">
+
+    <title>Fashion Store</title>
+          <style>
+<header>
+background:#f3f3f3;
+</header>
+
+
+        * {
+                       box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background:#f3f3f3;
+            color:#222;
+        }
+
+        header {
+            background:#f3f3f3;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 8px;
+        }
+
+        .container {
+           
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .card {
+            background:white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .produto {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .produto-item {
+            border: 2px solid #ddd;
+            border-radius: 12px;
+            padding: 15px;
+            cursor: pointer;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .produto-item:hover {
+            border-color:#DDA0DD;
+            transform: translateY(-3px);
+        }
+
+        .produto-item.selecionado {
+            border-color: #111;
+            background: #f0f0f0;
+        }
+
+        .produto-item h3 {
+            margin-bottom: 10px;
+        }
+
+        .preco {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .campo {
+            margin-bottom: 18px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 7px;
+        }
+
+        select,
+        input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        button {
+            width: 100%;
+            padding: 15px;
+            border: none;
+            border-radius: 8px;
+            background: #111;
+            color: white;
+            font-size: 17px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background:#DDA0DD;
+        }
+
+        #resultado {
+            display: none;
+            margin-top: 25px;
+            padding: 20px;
+            border-radius: 12px;
+            background: #e8f5e9;
+            border: 2px solid #4caf50;
+        }
+
+        #agradecimento {
+            font-size: 21px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .resumo {
+            line-height: 1.8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #111;
+            color:white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>FASHION STORE</h1>
+  </header>
+
+<div class="container">
+
+    <div class="card">
+
+        <h2>🛍️ Faça seu pedido</h2>
+
+        <br>
+
+        <div class="produto">
+
+            <div class="produto-item" onclick="selecionarProduto('Buque de rosas', 99.90, this)">
+                <h3>Buque de rosas</h3>
+                <p class="preco">R$ 99.90</p>
+            </div>
+
+            <div class="produto-item" onclick="selecionarProduto('Girassois', 79.90, this)">
+                <h3>Girassois</h3>
+                <p class="preco">R$ 79.90</p>
+            </div>
+
+            <div class="produto-item" onclick="selecionarProduto('Tulipas', 119.90, this)">
+                <h3>Tulipas</h3>
+                <p class="preco">R$ 119.90</p>
+            </div>
+
+            <div class="produto-item" onclick="selecionarProduto('Plantas ornamentais', 39.90, this)">
+                <h3>Plantas ornamentais</h3>
+                <p class="preco">R$ 39.90</p>
+            </div>
+
+        </div>
+
+        <div class="campo">
+
+            <label for="tamanho">
+                📏 Selecione o tamanho:
+            </label>
+
+            <select id="tamanho">
+                <option value="">Selecione...</option>
+                <option value="Grande">Grande</option>
+                <option value="Medio">Medio</option>
+                <option value="Pequeno">Pequeno</option>
+                           </select>
+
+        </div>
+
+      
+        <div class="campo">
+
+            <label for="quantidade">
+                🔢 Quantidade:
+            </label>
+
+            <input 
+                type="number" 
+                id="quantidade"
+                min="1"
+                value="1"
+            >
+
+        </div>
+
+        <div class="campo">
+
+            <label for="nome">
+                👤 Nome do cliente:
+            </label>
+
+            <input 
+                type="text"
+                id="nome"
+                placeholder="Digite seu nome"
+            >
+
+        </div>
+
+        <button onclick="finalizarCompra()">
+            FINALIZAR COMPRA
+        </button>
+
+        <div id="resultado">
+
+            <div id="agradecimento"></div>
+
+            <div class="resumo" id="resumoPedido"></div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    Desenvolvido por JÉFFERSON AZEVEDO
+</footer>
+
+
+<script>
+
+    // Variáveis da compra
+    let produtoSelecionado = "";
+    let precoProduto = 0;
+
+
+    // Função para selecionar o produto
+    function selecionarProduto(nome, preco, elemento) {
+
+        produtoSelecionado = nome;
+        precoProduto = preco;
+
+        // Remove a seleção dos outros produtos
+        let produtos = document.querySelectorAll(".produto-item");
+
+        produtos.forEach(function(item) {
+            item.classList.remove("selecionado");
+        });
+
+        // Marca o produto escolhido
+        elemento.classList.add("selecionado");
+
+    }
+
+
+    // Função para finalizar a compra
+    function finalizarCompra() {
+
+        let nome = document.getElementById("nome").value.trim();
+
+        let tamanho = document.getElementById("tamanho").value;
+
+        let cor = document.getElementById("cor").value;
+
+        let quantidade = parseInt(
+            document.getElementById("quantidade").value
+        );
+
+
+        // Validação do produto
+        if (produtoSelecionado === "") {
+
+            alert("Por favor, selecione uma roupa.");
+
+            return;
+        }
+
+
+        // Validação do nome
+        if (nome === "") {
+
+            alert("Por favor, informe seu nome.");
+
+            document.getElementById("nome").focus();
+
+            return;
+        }
+
+
+        // Validação do tamanho
+        if (tamanho === "") {
+
+            alert("Por favor, selecione o tamanho da roupa.");
+
+            document.getElementById("tamanho").focus();
+
+            return;
+        }
+
+
+        // Validação da cor
+        if (cor === "") {
+
+            alert("Por favor, selecione a cor da roupa.");
+
+            document.getElementById("cor").focus();
+
+            return;
+        }
+
+
+        // Validação da quantidade
+        if (isNaN(quantidade) || quantidade < 1) {
+
+            alert("Informe uma quantidade válida.");
+
+            return;
+        }
+
+
+        // Cálculo do valor
+        let total = precoProduto * quantidade;
+
+
+        // Formatação do valor
+        let totalFormatado = total.toLocaleString(
+            "pt-BR",
+            {
+                style: "currency",
+                currency: "BRL"
+            }
+        );
+
+
+        // Mensagem de agradecimento
+        document.getElementById("agradecimento").innerHTML =
+            "🎉 Obrigado pela sua compra, " + nome + "!";
+
+
+        // Resumo do pedido
+        document.getElementById("resumoPedido").innerHTML =
+
+            "<strong>Resumo do pedido:</strong><br><br>" +
+
+            "👕 Produto: " + produtoSelecionado + "<br>" +
+
+            "📏 Tamanho: " + tamanho + "<br>" +
+
+            "🎨 Cor: " + cor + "<br>" +
+
+            "🔢 Quantidade: " + quantidade + "<br>" +
+
+            "💰 Valor unitário: " +
+            precoProduto.toLocaleString(
+                "pt-BR",
+                {
+                    style: "currency",
+                    currency: "BRL"
+                }
+            ) + "<br>" +
+
+            "<strong>💵 Total: " + totalFormatado + "</strong><br><br>" +
+
+            "Seu pedido foi registrado com sucesso!<br>" +
+
+            "Esperamos que você aproveite sua nova roupa. ❤️";
+
+
+        // Exibe o resultado
+        document.getElementById("resultado").style.display = "block";
+
+
+        // Rola a tela até o resultado
+        document.getElementById("resultado").scrollIntoView({
+            behavior: "smooth"
+        });
+
+    }
+
+</script>
+
+</body>
+      
+    <section id="contato">
+
+        <h2>Contato</h2>
+
+        <p>📍 Rua das Flores, 123</p>
+        <p>📞 (31) 99999-9999</p>
+        <p>✉️ contato@jardimdasflores.com</p>
+
+    </section>
+
+
+    
+</body>
+
+</html>
